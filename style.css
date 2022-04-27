@@ -1,0 +1,117 @@
+               html {
+                   min-width: 400px;
+                   min-height: 700px;
+               }
+               
+               strong {
+                   color: rgb(104, 172, 3);
+               }
+               
+               strong:hover {
+                   color: gold;
+               }
+               
+               p {
+                   text-align: center;
+                   font-family: Montserrat;
+                   color: aliceblue;
+                   font-size: 25px;
+                   font-weight: 200;
+               }
+               
+               body {
+                   background-image: url("Images/cosmos.png");
+                   background-size: center;
+                   background-attachment: fixed;
+               }
+               
+               li {
+                   color: rgb(104, 172, 3);
+                   font-family: Montserrat;
+                   font-size: medium;
+                   list-style-type: square;
+                   size: 40px;
+                   margin-left: 75px;
+               }
+               
+               span {
+                   color: white;
+                   font-size: 25px;
+                   font-weight: 200;
+               }
+               
+               h1 {
+                   text-align: center;
+                   font-family: Montserrat, 'Times New Roman', Times, serif;
+                   font-weight: bold;
+                   font-size: 120px;
+                   color: aliceblue;
+                   line-height: 95px;
+                   margin-bottom: 20px;
+                   margin-top: 100px;
+                   min-width: 400px;
+                   min-height: 300px;
+               }
+               
+               h1:hover {
+                   -webkit-transform: scale(1.2);
+                   -ms-transform: scale(1.2);
+                   transform: scale(1.2);
+                   transition-duration: 2s;
+               }
+               
+               h2 {
+                   font-size: 95px;
+                   color: aliceblue;
+                   margin-left: 70px;
+                   margin-top: 300px;
+               }
+               
+               h4 {
+                   text-align: center;
+                   font-family: monospace;
+                   color: aliceblue;
+                   margin-bottom: 300px;
+               }
+               
+               a {
+                   text-align: justify;
+                   font-size: 80px;
+                   color: bisque;
+                   font-family: Montserrat;
+                   margin-left: 90px;
+                   text-decoration: none;
+               }
+               
+               a:hover {
+                   color: rgb(104, 172, 3);
+               }
+               
+               footer {
+                   text-align: center;
+                   color: aliceblue;
+                   margin-bottom: 100px;
+               }
+               
+               hr {
+                   width: 700px;
+                   color: rgb(104, 172, 3);
+                   margin-top: 50px;
+               }
+               
+               img {
+                   margin-left: 25px;
+                   margin-top: 25px;
+               }
+               
+               #background-video {
+                   width: 100vw;
+                   height: 100vh;
+                   object-fit: cover;
+                   position: fixed;
+                   left: 0;
+                   right: 0;
+                   top: 0;
+                   bottom: 0;
+                   z-index: -1;
+               }
